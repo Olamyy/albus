@@ -4,10 +4,13 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Albus	../albus/albus.py	/^class Albus(object):$/;"	kind:class	line:8
 GITHUB_REPO	../travis_pypi_setup.py	/^GITHUB_REPO = 'olamyy\/albus'$/;"	kind:variable	line:23
 TRAVIS_CONFIG_FILE	../travis_pypi_setup.py	/^TRAVIS_CONFIG_FILE = os.path.join($/;"	kind:variable	line:24
 __email__	../albus/__init__.py	/^__email__ = 'olamyy53@gmail.com'$/;"	kind:variable	line:6
+__init__	../albus/albus.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:9
 __init__.py	../albus/__init__.py	1;"	kind:file	line:1
+__init__.py	../albus/algorithms/__init__.py	1;"	kind:file	line:1
 __init__.py	../tests/__init__.py	1;"	kind:file	line:1
 __version__	../albus/__init__.py	/^__version__ = '0.1.0'$/;"	kind:variable	line:7
 albus.py	../albus/albus.py	1;"	kind:file	line:1
@@ -15,7 +18,6 @@ args	../travis_pypi_setup.py	/^    args = parser.parse_args()$/;"	kind:variable	
 author	../setup.py	/^    author="Olamilekan Wahab",$/;"	kind:variable	line:34
 author_email	../setup.py	/^    author_email='olamyy53@gmail.com',$/;"	kind:variable	line:35
 classifiers	../setup.py	/^    classifiers=[$/;"	kind:variable	line:48
-cli.py	../albus/cli.py	1;"	kind:file	line:1
 conf.py	../docs/conf.py	1;"	kind:file	line:1
 copyright	../docs/conf.py	/^copyright = u"2017, Olamilekan Wahab"$/;"	kind:variable	line:59
 cwd	../docs/conf.py	/^cwd = os.getcwd()$/;"	kind:variable	line:26
@@ -40,7 +42,6 @@ license	../setup.py	/^    license="MIT license",$/;"	kind:variable	line:45
 load_key	../travis_pypi_setup.py	/^def load_key(pubkey):$/;"	kind:function	line:28
 load_yaml_config	../travis_pypi_setup.py	/^def load_yaml_config(filepath):$/;"	kind:function	line:80
 long_description	../setup.py	/^    long_description=readme + '\\n\\n' + history,$/;"	kind:variable	line:33
-main	../albus/cli.py	/^def main(args=None):$/;"	kind:function	line:9
 main	../travis_pypi_setup.py	/^def main(args):$/;"	kind:function	line:105
 man_pages	../docs/conf.py	/^man_pages = [$/;"	kind:variable	line:241
 master_doc	../docs/conf.py	/^master_doc = 'index'$/;"	kind:variable	line:55
