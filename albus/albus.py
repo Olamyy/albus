@@ -20,4 +20,4 @@ dict_data = {
      4: [53, 48, 0, 0],
      5: [50, 45, 0, 0]}
 testing = Albus(dict_data)
-print(testing.null_info)
+testing.null_info
